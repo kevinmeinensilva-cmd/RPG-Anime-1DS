@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&display=swap');
+
+:root{
+    --escuridao: #000000ff;
+    --genkidama: #14213dff;
+    --espadinhalaranja: #fca311ff;
+    --platinamestre: #e5e5e5ff;
+    --titulo: "Nerko One", cursive;
+    --texto:  "Montserrat", sans-serif;
+}
