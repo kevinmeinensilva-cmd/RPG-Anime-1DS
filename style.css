@@ -2,9 +2,13 @@
 
 :root{
     --escuridao: #000000ff;
-    --genkidama: #14213dff;
+    --genkidama: #115577;
     --espadinhalaranja: #fca311ff;
     --platinamestre: #e5e5e5ff;
     --titulo: "Nerko One", cursive;
     --texto:  "Montserrat", sans-serif;
+}
+body{
+    background-color: var(--genkidama);
+    font-family: var(--texto);
 }
