@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&display=swap');
+
+:root{
+    --escuridao: #000000ff;
+    --genkidama: #115577;
+    --espadinhalaranja: #fca311ff;
+    --platinamestre: #e5e5e5ff;
+    --titulo: "Nerko One", cursive;
+    --texto:  "Montserrat", sans-serif;
+}
+body{
+    background-color: var(--escuridao);
+    font-family: var(--texto);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    margin-top: 20px;
+    max-width: 90%;
+    text-align: center;
+}
+button{
+    font-family: var(--titulo);
+    background-color: var(--escuridao);
+    color: var(--genkidama);
+    border: 2px solid var(--platinamestre);
+    padding: 20px 30px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 3%;
+    font-size: 15px;
+}
+button:hover{
+    background-color: #898989;
+    color: var(--escuridao);
+    transition: 0.5s;
+}
